@@ -1,5 +1,23 @@
 # wired
 
+## Architecture
+
+The network consists primarily of three components:
+- Servers
+  - Their task is to store and synchronize messages coming from connected clients.
+  - The first "official" server to be released will be a Node.js server backed by SQLite3.
+- Clients
+  - Their task is to present messages received from a server and let the user send messages.
+  - The first "official" client to be released will be a React application,
+    embeddable in any static HTML side.
+- Trackers
+  - Much like TPB, a tracker is a website that tracks publicly available servers.
+  - The tracker might also present various available "non-official" clients;
+    someone might for instance make publicly available a command-line client for download.
+
+Much like the IRC network, clients and servers adhere to a previously agreed upon protocol (to be decided) regarding how messages and users are handled. Client-server communication happens via SocketIO. Anyone should be able to make their own server or client and connect them to the network as long as they adhere to the protocol.
+
+
 ## Background
 
 >>>> the "illegal rave" is just a private-public party. a village festival. public gathering sans state intervention. thats all its an essential need for living. anyone can day-rent a PA system subwoofer and mixer for sub $300. put on USB mixes from soundcloud. ppl dont party anymore
