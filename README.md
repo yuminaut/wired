@@ -62,7 +62,7 @@ can be connected to via the tracker.
 ### Marketing strategy
 
 So how do we get the word out? Depend on people's curiosity
-and then hijack their dopamine receptor...
+and then hijack their dopamine receptors...
 
 #### Physical marketing
 
