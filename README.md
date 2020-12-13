@@ -2,9 +2,11 @@
 
 The wired network (working name) is a proposed system of online communication
 and networking, with the aim of its participants reclaiming internet space from
-social media giants by setting up one's own space. A goal are is for each participant
-to have a personal exocortex – an independently hosted knowledge wiki – and/or to
-host and manage a part of the chat network, explained below.
+social media giants by setting up one's own space via which one can communicate
+with other participants, done by hosting and managing an instance of the chat
+system explained below. It is also strongly encouraged that a participant maintains
+a personal exocortex – an independently hosted knowledge wiki. Instructions to
+do all of this will be provided and hopefully a streamlined process will be presented.
 
 The core of the network is the anonymous hyper-real-time chat, that is, a chat that
 displays each message to all participants *as it is being typed*, which allows for
