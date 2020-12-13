@@ -12,6 +12,9 @@ The core of the network is the anonymous hyper-real-time chat, that is, a chat t
 displays each message to all participants *as it is being typed*, which allows for
 an entire new mode of communication; the chat becomes a brain-brain interface.
 
+The few people who are involved in getting this off the ground will simply be referred
+to "we" or "us" hereafter.
+
 ## Chat architecture
 
 The chat network consists primarily of three components:
@@ -44,6 +47,38 @@ Much like the IRC network, clients and servers adhere to a previously agreed upo
     - Official server
     - ... other server implementations
 - Setup instructions
+
+## Achieving virality
+
+Firstly there are two main factors that work in the favor of getting the wired chat off the ground:
+
+1. Anonymity – no registration required
+2. Hyper-real-time chatting is fun and intense
+
+... but that's not enough on its own. In order to lift off we need to market the network
+and provide a basic network, likely consisting of city-local chat servers (see below) that
+can be connected to via the tracker.
+
+### Marketing strategy
+
+So how do we get the word out? Depend on people's curiosity
+and then hijack their dopamine receptor...
+
+#### Physical marketing
+
+Leave around and gift miscellaneous consumer items branded with an eye-catching logo
+and an alluring link that leads to the official tracker site, throwing the newcomer
+straight into her local city chat upon entrance. Examples of such items are:
+
+- Laptop stickers
+- Cigarette lighters
+- ...?
+
+To anyone willing we will distribute these items so that they can spread the word.
+
+#### Online marketing
+
+TODO.
 
 ## Background
 
