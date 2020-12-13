@@ -1,8 +1,18 @@
-# wired
+# the wired network
 
-## Architecture
+The wired network (working name) is a proposed system of online communication
+and networking, with the aim of its participants reclaiming internet space from
+social media giants, thus achieving user agency. Setting up one's own server and/or
+client will be streamlined, and connecting it to a person exocortex, an independently
+hosted knowledge wiki, will be strongly encouraged by the very design of the network.
 
-The network consists primarily of three components:
+The core of the network is the anonymous hyper-real-time chat, that is, a chat that
+displays each message to all participants *as it is being typed*, which allows for
+an entire new mode of communication; the chat becomes a brain-brain interface.
+
+## Chat architecture
+
+The chat network consists primarily of three components:
 - Servers
   - Their task is to store and synchronize messages coming from connected clients.
   - The first "official" server to be released will be a Node.js server backed by SQLite3.
@@ -14,9 +24,24 @@ The network consists primarily of three components:
   - Much like TPB, a tracker is a website that tracks publicly available servers.
   - The tracker might also present various available "non-official" clients;
     someone might for instance make publicly available a command-line client for download.
+  - An "official" tracker will be released and should be able to be considered a
+    "source of truth" for anyone seeking to find servers, setup information etc.
 
 Much like the IRC network, clients and servers adhere to a previously agreed upon protocol (to be decided) regarding how messages and users are handled. Client-server communication happens via SocketIO. Anyone should be able to make their own server or client and connect them to the network as long as they adhere to the protocol.
 
+**A tracker page might look something like this, structurally:**
+
+- Server list
+  - chat.example1.com
+  - chat.example2.com
+- Downloads
+  - Clients
+    - Official client
+    - ... other client implementations
+  - Servers
+    - Official server
+    - ... other server implementations
+- Setup instructions
 
 ## Background
 
