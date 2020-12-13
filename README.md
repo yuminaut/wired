@@ -1,6 +1,6 @@
 # wired
 
-## What? Why?
+## Background
 
 >>>> the "illegal rave" is just a private-public party. a village festival. public gathering sans state intervention. thats all its an essential need for living. anyone can day-rent a PA system subwoofer and mixer for sub $300. put on USB mixes from soundcloud. ppl dont party anymore
 >>>>
@@ -18,15 +18,15 @@
 >>
 >> a network with one realtime irc chatroom (every letter shown live as its typed even before you hit send, like the realtime imageboard, its the future, trust me) for every city/county in America, every city in the world.
 >
-> ![image1.jpeg]
+> <p align=center><img src="image1.jpeg" width=50% /></p>
 >
 > Each city chat is one screen w/ a realtime IRC & simple 3pg static imageboard BBS with 10 threads per pg, ordered by most recent post & deleted after reaching end of pg3. jump in anon but can set username & encrypted tripcode PW w/ clicks into simple custom profile page & dms
 >
-> ![image2.jpeg] ![image3.png]
+> <p align=center><img src="image2.jpeg" width=40% /><img src="image3.png" width=58% /></p>
 > 
 > Tiling screen, letting u open multiple IRCs & BBS in same screen. u are automatically dropped into your city's IRC+BBS but can freely switch out or tile into other room chats, including global rtIRCs & BBS as well custom ones created by users (autopruned if inactive)
 > 
-> ![image 4.jpeg]
+> <p align=center><img src="image4.jpeg" width=50% /></p>
 > 
 > full suite web/mobile browser & desktop & iphone/android apps (mobile have swiping screens, 2 tiles per screen). it will target college cities first and will grow immensely popular very quickly. image upload goes thru hosts like imgur so bandwidth costs minimal.
 > 
