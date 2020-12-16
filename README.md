@@ -18,21 +18,34 @@ to "we" or "us" hereafter.
 ## Chat architecture
 
 The chat network consists primarily of three components:
-- Servers
-  - Their task is to store and synchronize messages coming from connected clients.
-  - The first "official" server to be released will be a Node.js server backed by SQLite3.
-- Clients
-  - Their task is to present messages received from a server and let the user send messages.
-  - The first "official" client to be released will be a React application,
-    embeddable in any static HTML side.
-- Trackers
-  - Much like TPB, a tracker is a website that tracks publicly available servers.
-  - The tracker might also present various available "non-official" clients;
-    someone might for instance make publicly available a command-line client for download.
-  - An "official" tracker will be released and should be able to be considered a
-    "source of truth" for anyone seeking to find servers, setup information etc.
+- Chat servers
+  - Their task is to store and synchronize messages coming from connected
+    chat clients.
+  - The first "official" chat server application to be released will be a
+    Node.js server backed by SQLite3.
+    
+- Chat clients
+  - Their task is to present messages received from a chat server and let
+    the user send messages.
+  - The first "official" chat client to be released will be a React
+    application compiled to static HTML/CSS/JS. You will be able to
+    embed it in any static HTML site.
+    
+- Tracker websites
+  - Much like TPB, a tracker is a website that tracks publicly available
+    chat servers.
+  - A tracker might present the various available chat clients; someone
+    might for instance make and publish a command-line client for or a
+    standalone application.
+  - An "official" tracker will be released and should be able to be
+    considered a "source of truth" for anyone seeking to find chat
+    servers, setup information etc.
 
-Much like the IRC network, clients and servers adhere to a previously agreed upon protocol (to be decided) regarding how messages and users are handled. Client-server communication happens via SocketIO. Anyone should be able to make their own server or client and connect them to the network as long as they adhere to the protocol.
+Much like the IRC network, chat clients and chat servers adhere to a
+previously agreed upon protocol (to be decided) regarding how messages
+and users are handled. Client-server communication happens via SocketIO.
+Anyone should be able to make their own server or client and connect
+them to the network as long as they adhere to the protocol.
 
 **A tracker page might look something like this, structurally:**
 
@@ -40,24 +53,26 @@ Much like the IRC network, clients and servers adhere to a previously agreed upo
   - chat.example1.com
   - chat.example2.com
 - Downloads
-  - Clients
-    - Official client
+  - Chat clients
+    - Official client (see above)
     - ... other client implementations
-  - Servers
-    - Official server
+  - Chat server applications
+    - Official server application (see above)
     - ... other server implementations
 - Setup instructions
 
 ## Achieving virality
 
-Firstly there are two main factors that work in the favor of getting the wired chat off the ground:
+Firstly there are two main factors that work in the favor of getting the
+wired chat off the ground:
 
 1. Anonymity – no registration required
 2. Hyper-real-time chatting is fun and intense
 
-... but that's not enough on its own. In order to lift off we need to market the network
-and provide a basic network, likely consisting of city-local chat servers (see below) that
-can be connected to via the tracker.
+... but that's not enough on its own. In order to lift off we need to
+market the network and provide a basic network, likely consisting of
+city-local chat servers (see below) that can be connected to via the
+tracker.
 
 ### Marketing strategy
 
@@ -66,15 +81,17 @@ and then hijack their dopamine receptors...
 
 #### Physical marketing
 
-Leave around and gift miscellaneous consumer items branded with an eye-catching logo
-and an alluring link that leads to the official tracker site, throwing the newcomer
-straight into her local city chat upon entrance. Examples of such items are:
+Leave around and gift miscellaneous consumer items branded with an
+eye-catching logo and an alluring link that leads to the official tracker
+site, throwing the newcomer straight into her local city chat upon entrance.
+Examples of such items are:
 
 - Laptop stickers
 - Cigarette lighters
 - ...?
 
-To anyone willing we will distribute these items so that they can spread the word.
+To anyone willing we will distribute these items so that they can spread
+the word.
 
 #### Online marketing
 
