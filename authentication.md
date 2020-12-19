@@ -34,15 +34,19 @@ client but not to any server.
 Each message (or each request?) that you send is signed
 automatically by the client using your secret as such:
 
-```Packet = Sender + Message + Message.Encrypt(Secret))```
+```Packet = SenderID + Message + Message.Encrypt(Secret))```
 
 The server receives the packet and redistributes it to the
 connected clients that should receive it.
 
+> *Question: What is the SenderID here?*
+
 Once the Packet reaches a client, the client has to verify
 its authenticity. This can be done by decrypting the signature
 (i.e. `Message.Encrypt(Secret))`) using the public key referred
-to via "Sender" and comparing it with the original message.
+to via "SenderID" and comparing it with the original message.
+
+> *Questions: How often does this check need to be performed?*
 
 The public key can be accessed via a trusted repository,
 for instance auth.example.com/keys. For efficiency, the client
