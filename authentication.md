@@ -40,7 +40,8 @@ The server receives the packet and redistributes it to the
 connected clients that should receive it.
 
 > *Question: What is the SenderID here?*
-> *Possibility: `SHA256(Secret)`, stored in advance in the repository (see below).
+>
+> *Possibility: `SHA256(Secret)`, stored in advance in the repository (see below).*
 
 Once the Packet reaches a client, the client has to verify
 its authenticity. This can be done by decrypting the signature
