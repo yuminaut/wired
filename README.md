@@ -28,8 +28,7 @@ The chat network consists primarily of three components:
   - Their task is to present messages received from a chat server and let
     the user send messages.
   - The first "official" chat client to be released will be a React
-    application compiled to static HTML/CSS/JS. You will be able to
-    embed it in any static HTML site.
+    application compiled to static HTML/CSS/JS.
     
 - Tracker websites
   - Much like TPB, a tracker is a website that tracks publicly available
@@ -98,6 +97,8 @@ the word.
 TODO.
 
 ## Background
+
+*Conversations from Twitter.*
 
 >>>> the "illegal rave" is just a private-public party. a village festival. public gathering sans state intervention. thats all its an essential need for living. anyone can day-rent a PA system subwoofer and mixer for sub $300. put on USB mixes from soundcloud. ppl dont party anymore
 >>>>
